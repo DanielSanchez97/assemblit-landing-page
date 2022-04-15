@@ -6,13 +6,31 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("Hello World")
     
 
-    
+    generate_first_icons()
     generate_calendar_icon();
     //generate_calendar_icon();
     generate_clock_icon();
     //generate_clock_icon();
 });
 
+
+function generate_first_icons(){
+    for(i=0; i<10; i++){
+        x_pos = Math.floor((Math.random()*70) + 10)
+
+        if(i % 2 == 0){
+            icon = create_calendar(x_pos) 
+        }
+
+        else {
+            icon = create_clock(x_pos)
+        }
+        
+        icon.style.animationDelay = "-4s"
+        ICONS.push(icon)
+        document.getElementById('animation-container').appendChild(icon)
+    }
+}
 
 function generate_calendar_icon() {
 
