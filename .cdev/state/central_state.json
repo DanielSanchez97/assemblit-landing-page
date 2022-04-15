@@ -1,0 +1,17 @@
+{
+    "resource_state_locations": {
+        "55296b54-eec4-4919-8bc2-2fbb1134cde4": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state/resource_state_55296b54-eec4-4919-8bc2-2fbb1134cde4.json",
+        "87671d97-d4fe-464c-8cad-f4bc70255bfb": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state/resource_state_87671d97-d4fe-464c-8cad-f4bc70255bfb.json",
+        "2b452c3c-7aec-4a2c-9dd0-36328ad96cfd": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state/resource_state_2b452c3c-7aec-4a2c-9dd0-36328ad96cfd.json"
+    },
+    "top_level_states": [
+        "55296b54-eec4-4919-8bc2-2fbb1134cde4",
+        "87671d97-d4fe-464c-8cad-f4bc70255bfb",
+        "2b452c3c-7aec-4a2c-9dd0-36328ad96cfd"
+    ],
+    "resource_state_names": [
+        "prod",
+        "stage",
+        "dev"
+    ]
+}

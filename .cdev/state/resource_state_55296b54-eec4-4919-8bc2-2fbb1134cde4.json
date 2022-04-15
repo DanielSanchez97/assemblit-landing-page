@@ -1,0 +1,10 @@
+{
+    "name": "prod",
+    "uuid": "55296b54-eec4-4919-8bc2-2fbb1134cde4",
+    "components": [],
+    "component_name_to_uuid": {},
+    "parent_uuid": null,
+    "children": [],
+    "resource_changes": {},
+    "failed_changes": {}
+}

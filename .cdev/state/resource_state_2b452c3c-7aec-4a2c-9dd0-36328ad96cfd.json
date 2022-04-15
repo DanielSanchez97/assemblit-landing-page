@@ -1,0 +1,45 @@
+{
+    "name": "dev",
+    "uuid": "2b452c3c-7aec-4a2c-9dd0-36328ad96cfd",
+    "components": [
+        {
+            "name": "hello_world_comp",
+            "hash": "17271cfa2c5196bd0fe9732ec9540288",
+            "resources": [
+                {
+                    "name": "demofrontend",
+                    "ruuid": "cdev::simple::staticsite",
+                    "hash": "3a8c2d0a6684b72e2bceb816dac66aa3",
+                    "index_document": "index.html",
+                    "error_document": "error.html",
+                    "sync_folder": false,
+                    "content_folder": "src/content",
+                    "domain_name": null,
+                    "ssl_certificate_arn": null
+                }
+            ],
+            "references": [],
+            "cloud_output": {
+                "cdev::simple::staticsite;demofrontend": {
+                    "cloud_id": "arn:aws:cloudfront::369004794337:distribution/E3AY4KQ2W0U9QR",
+                    "bucket_name": "cdev-staticsite-1fc56f0b04334ca99053ae489ebbb53c",
+                    "cloudfront_id": "E3AY4KQ2W0U9QR",
+                    "cloudfront_arn": "arn:aws:cloudfront::369004794337:distribution/E3AY4KQ2W0U9QR",
+                    "site_url": "dfuig5inzcoph.cloudfront.net",
+                    "cloud_region": "us-east-1"
+                }
+            },
+            "previous_resolved_cloud_values": {
+                "cdev::simple::staticsite;demofrontend": {}
+            },
+            "external_references": {}
+        }
+    ],
+    "component_name_to_uuid": {
+        "hello_world_comp": "509f3be6-1ceb-46e5-90a1-a77fef4e8003"
+    },
+    "parent_uuid": null,
+    "children": [],
+    "resource_changes": {},
+    "failed_changes": {}
+}

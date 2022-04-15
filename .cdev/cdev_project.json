@@ -1,0 +1,95 @@
+{
+    "project_name": "landing-page",
+    "environments": [
+        {
+            "name": "prod",
+            "workspace_info": {
+                "python_module": "core.default.workspace",
+                "python_class": "local_workspace",
+                "settings_info": {
+                    "base_class": "core.constructs.settings.Settings",
+                    "user_setting_module": [
+                        "settings.base_settings",
+                        "settings.prod_settings"
+                    ],
+                    "secret_dir": "settings/prod_secrets"
+                },
+                "config": {
+                    "backend_configuration": {
+                        "python_module": "core.default.backend",
+                        "python_class": "LocalBackend",
+                        "config": {
+                            "base_folder": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state",
+                            "central_state_file": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state/central_state.json"
+                        }
+                    },
+                    "resource_state_uuid": "55296b54-eec4-4919-8bc2-2fbb1134cde4",
+                    "initialization_module": "src.cdev_project"
+                }
+            }
+        },
+        {
+            "name": "stage",
+            "workspace_info": {
+                "python_module": "core.default.workspace",
+                "python_class": "local_workspace",
+                "settings_info": {
+                    "base_class": "core.constructs.settings.Settings",
+                    "user_setting_module": [
+                        "settings.base_settings",
+                        "settings.stage_settings"
+                    ],
+                    "secret_dir": "settings/stage_secrets"
+                },
+                "config": {
+                    "backend_configuration": {
+                        "python_module": "core.default.backend",
+                        "python_class": "LocalBackend",
+                        "config": {
+                            "base_folder": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state",
+                            "central_state_file": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state/central_state.json"
+                        }
+                    },
+                    "resource_state_uuid": "87671d97-d4fe-464c-8cad-f4bc70255bfb",
+                    "initialization_module": "src.cdev_project"
+                }
+            }
+        },
+        {
+            "name": "dev",
+            "workspace_info": {
+                "python_module": "core.default.workspace",
+                "python_class": "local_workspace",
+                "settings_info": {
+                    "base_class": "core.constructs.settings.Settings",
+                    "user_setting_module": [
+                        "settings.base_settings",
+                        "settings.dev_settings"
+                    ],
+                    "secret_dir": "settings/dev_secrets"
+                },
+                "config": {
+                    "backend_configuration": {
+                        "python_module": "core.default.backend",
+                        "python_class": "LocalBackend",
+                        "config": {
+                            "base_folder": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state",
+                            "central_state_file": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state/central_state.json"
+                        }
+                    },
+                    "resource_state_uuid": "2b452c3c-7aec-4a2c-9dd0-36328ad96cfd",
+                    "initialization_module": "src.cdev_project"
+                }
+            }
+        }
+    ],
+    "backend_info": {
+        "python_module": "core.default.backend",
+        "python_class": "LocalBackend",
+        "config": {
+            "base_folder": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state",
+            "central_state_file": "/home/daniel/cdev-org/projects/tmp/landing-page/.cdev/state/central_state.json"
+        }
+    },
+    "current_environment": "dev"
+}
